@@ -1,2 +1,2 @@
 # CRUD-app
-MERN projects
+MERN project
