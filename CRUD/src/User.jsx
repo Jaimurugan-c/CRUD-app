@@ -11,7 +11,11 @@ const User = () => {
     <div className='d-flex vh-100 justify-content-center bg-primary align-items-center'>
       <div className='container'>
         <div className='row justify-content-center'>
-          <div className='col-12 col-md-8 col-lg-6 bg-white rounded p-3'>
+          <div className='col-12 col-md-8 
+          col-lg-6 bg-white rounded p-3'>
+             <Link to= '/create' className='btn btn-success'
+             >Add New</Link>
+      
             <table className='table'>
               <thead>
                 <tr>
@@ -27,8 +31,10 @@ const User = () => {
                     <td>{user.Name}</td>
                     <td>{user.Email}</td>
                     <td>{user.Age}</td>
-                    <td><button className='bg-success 
-                    btn  text-light '>Edit</button><button className='bg-danger btn  text-light'>Delete</button></td>
+                    <td><button className='bg-warning
+                    btn  text-darkt '>Edit</button>
+                    <button className='bg-danger btn   text-light'>Delete</button>
+                    </td>
                   </tr>
                 })}
               </tbody>
