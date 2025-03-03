@@ -2,7 +2,8 @@ import React from 'react'
 
 const CreateUser = () => {
   return (
-    <div className='d-flex vh-100 justify-content-center bg-primary align-items-center'>
+    <div className='d-flex vh-100 
+    justify-content-center bg-primary align-items-center'>
       <div className="w-50 bg-white rounded p-4 shadow">
         <form>
           <h3 className="text-center mb-4">Add User</h3>

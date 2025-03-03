@@ -31,8 +31,8 @@ const User = () => {
                     <td>{user.Name}</td>
                     <td>{user.Email}</td>
                     <td>{user.Age}</td>
-                    <td><button className='bg-warning
-                    btn  text-darkt '>Edit</button>
+                    <td> <Link to= '/update' className='btn btn-warning'>Edit</Link>
+    
                     <button className='bg-danger btn   text-light'>Delete</button>
                     </td>
                   </tr>
